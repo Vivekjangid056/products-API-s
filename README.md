@@ -1,9 +1,9 @@
 # products-API-s
 CRUD API's for ecommerce products website
 
-assignment = 
+## ASSIGNMENT: 
 
-""" Goal:
+## Goal:
           To deploy an API on PythonAnywhere with CRUD functionality
 Task:
           You have to create a page using the following technologies
