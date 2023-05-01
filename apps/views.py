@@ -10,15 +10,22 @@ from django.core.cache import cache
 
 class productlist(APIView):
     """
-    It is non-primary key based operation to fetch the data or to post the data
+           It is non-primary key based operation to fetch the data or to post the data
     """
     def get(self, request):
         products = cache.get('products')
+        """ 
+            caching the data if it is in cache or not
+        """
         if not products:
             products= Products.objects.all()
             cache.set('products', products)
         serializer = ProductSerializer(products, many=True)
+        """
+            will return all the data in jason format
+        """
         return Response(serializer.data)
+    
     
     def post(self, request):
         serializer = ProductSerializer(data= request.data)
