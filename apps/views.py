@@ -10,7 +10,7 @@ from django.core.cache import cache
 
 class productlist(APIView):
     """
-    
+    It is non-primary key based operation to fetch the data or to post the data
     """
     def get(self, request):
         products = cache.get('products')
