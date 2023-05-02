@@ -42,7 +42,7 @@ First of all go to command line and run the command
 // the first upper commande starts the project on django server that we can check by running command "python manage.py runserver"
 // the second command creates an application where the files models.py, views.py is created with running the command
 
-###after running the upper three commands we have to configure the settings of our project
+### after running the upper three commands we have to configure the settings of our project
 
 in the ecommerce directory we have settings.py file where we have section named "installed apps" we have to add "apps" that is our application and "rest_framework"
                 INSTALLED_APPS = [
@@ -82,7 +82,7 @@ in the ecommerce directory we have settings.py file where we have section named 
                       CREATE DATABASE ecommerce;            # the database name should match to the name we write in the stiings.py file
                       USE ecommerce;
  
- ###now we can apply migrations
+ ### now we can apply migrations
  
                   python manage.py makemigrations
                   python manage.py migrate
