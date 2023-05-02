@@ -45,6 +45,7 @@ First of all go to command line and run the command
 ### after running the upper three commands we have to configure the settings of our project
 
 in the ecommerce directory we have settings.py file where we have section named "installed apps" we have to add "apps" that is our application and "rest_framework"
+
                 INSTALLED_APPS = [
                         'django.contrib.admin',
                         'django.contrib.auth',
