@@ -32,7 +32,7 @@ Your code can have the following additions as well
 
 
 
-SUMMARY OF THE CODE:
+## SUMMARY OF THE CODE:
 
 First of all go to command line and run the command
               django-admin startproject ecommerce
