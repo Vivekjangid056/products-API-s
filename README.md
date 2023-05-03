@@ -92,7 +92,7 @@ after running the migrate command it will create some tables in the database.
 
 the final thing is to create views and configure the urls.
 
-I have used basic class based view and some advanced refined class based views that are provided by rest_framework 
+I have generic class based view and some advanced refined class based views that are provided by rest_framework 
                  
                  Basic classed based view
                  rest_framework.mixins
